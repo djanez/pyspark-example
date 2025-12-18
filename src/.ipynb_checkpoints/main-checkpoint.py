@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 
 
-def run():
+def main():
     # Crear la SparkSession
     spark = (
         SparkSession.builder
@@ -30,4 +30,4 @@ def run():
     spark.stop()
 
 if __name__ == "__main__":
-    run()
+    main()
